@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.footer {
+    background-color: #2d3748;
+    color: #a0aec0;
+    padding: 3rem 0;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-family:Open Sans ;
+}
+
+.brand-section {
+    display: flex;
+    flex-direction: column;
+    font-family:Open Sans ;
+}
+
+.brand-link {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #edf2f7;
+    text-decoration: none;
+    font-family:Open Sans ;
+}
+
+.brand-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.brand-svg {
+    width: 100%;
+    height: 100%;
+}
+
+.brand-name {
+    color: inherit;
+    font-family:Open Sans ;
+}
+
+.links-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    font-family:Open Sans ;
+}
+
+.link-group {
+    display: flex;
+    flex-direction: column;
+    font-family:Open Sans ;
+}
+
+.link-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #cbd5e0;
+    font-family:Open Sans ;
+}
+
+.link-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family:Open Sans ;
+}
+
+.link-list a {
+    color: #a0aec0;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family:Open Sans ;
+}
+
+.link-list a:hover {
+    color: #edf2f7;
+    font-family:Open Sans ;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    font-family:Open Sans ;
+}
+
+.social-link {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #a0aec0;
+    transition: color 0.3s;
+    font-family:Open Sans ;
+    
+}
+
+.social-link:hover {
+    color: #edf2f7;
+}
+
+.social-svg {
+    width: 100%;
+    height: 100%;
+}

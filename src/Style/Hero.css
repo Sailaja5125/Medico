@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.corrousel{
+    height: 70vh;
+    margin: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.hero-content h1{
+    font-size: 48px;
+    font-family: Montserrat;
+}
+.hero-content p{
+    font-family: Montserrat;
+    line-height: 1.2;
+    margin: 0%;
+    font-size: 20px;
+    color: #737373;
+}
+img{
+    margin: -4px;
+    height: 80vh;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    margin: 34px;
+    line-height: 12px;
+}
+.first {
+    background-color: #FF685B;
+    border: none;
+    width: 150px;
+    height: 35px;
+    align-self: center;
+    margin: 14px;
+    padding: 2px;
+    color: white;
+    letter-spacing: 0.24px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 12px;
+}
+.second{
+    border: 2px solid #FF685B;
+    width: 130px;
+    height: 35px;
+    align-self: center;
+    margin: 14px;
+    padding: 2px;
+    background-color: white;
+    color: #FF685B;
+    letter-spacing: 0.24px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 12px;
+}
+.second:hover{
+    background-color: #FF4C4C;
+    color: white;
+}
+.first:hover{
+    border: 2px solid #FF685B;
+    background-color: white;
+    color: #FF685B;
+}
+
+.small-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    position: relative;
+    top: 12px;
+    margin: 12px 12px 12px 12px;
+    padding:12px 12px 12px 12px;
+}
+.icons{
+    position: relative;
+    right: 52%;
+    left: 40%;
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FF685B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.box {
+    z-index: 100;
+    box-shadow: 1px 1px 10px 2px  #737373;
+    width: 18rem;
+    text-align: center;
+    height: 85%;
+    margin: 22px 22px 22px 22px ;
+    padding: 12px 12px 12px 12px ;
+    background-color: white;
+}
+.box h5{
+    font-size: 16px;
+    font-family: Montserrat;
+}
+.box p{
+    color: #737373;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.numbers{
+position: relative;
+top: 150px;
+display: flex;
+justify-content: space-evenly;
+}
+.num1 h1{
+    font-size: 56px;
+    margin: 0px;
+    padding: 0%;
+    color: #FF685B;
+    font-family: Montserrat;
+}
+.num1 p{
+    color: #252B42;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0%;
+    text-align: center;
+    font-family: Montserrat;
+}
+.part1{
+    position: relative;
+    top: 220px;
+    height: 40vh;
+    padding: 24px 24px 24px 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.part1-text{
+    width: 50%;
+}
+.part1-text h1{
+color: #252B42;
+font-family: Montserrat;
+
+}
+.part1-text p{
+    color: #737373;
+    font-family: Montserrat;
+    font-size: 14px; 
+}
+.part1-text a{
+    margin: 0px;
+}
+
+.part1-text a:hover{
+    color: #737373;
+}
+
+.part2 {
+    position: relative;
+    top: 230px;
+    height: 90vh;
+    background-color: #E5F9F7;
+    padding: 24px 24px 24px 24px;
+    margin: 24px 24px 24px 24px;
+}
+.part2-text {
+    padding: 24px 24px 24px 24px;
+    margin: 0px 0px 0px 30px;
+    width: 50%;
+}
+.part2-text h1{
+    font-family: Montserrat;
+    color: #252B42;
+}
+.part2-text p{
+    font-family: Montserrat;
+    color: #737373;
+    font-size: 14px;
+}
+.products-container{
+    display: flex;
+    align-items: center;
+    height: 59%;
+    margin: 4px 4px 0px 4px;
+    
+}
+.part3{
+    position: relative;
+    top: 230px;
+    margin: 0px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.part3-text{
+    text-align: center;
+    padding: 24px 24px 24px 24px;
+    margin: 0px 0px 0px 30px;
+    width: 50%;   
+}
+.blog-container{
+    display: flex;
+    align-items: center;
+    height: 59%;
+    margin: 4px 4px 0px 4px;
+}
+.part3-text h1{
+    text-align: center;
+    font-family: Montserrat;
+    color: #252B42;
+}
+.part3-text p{
+    text-align: center;
+    font-family: Montserrat;
+    color: #737373;
+    font-size: 14px;
+}
+
+.subscription-footer{
+height: 60vh;
+position: relative;
+top: 230px;
+margin: 24px;
+padding: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Footer{
+    height: 60vh;
+    position: relative;
+    top: 225px;
+    background-color: #252B42;
+}
+

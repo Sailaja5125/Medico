@@ -1,0 +1,142 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logincontainer {
+  width: 250px;
+  border-radius: 40px;
+  padding: 25px 35px;
+  box-shadow: rgba(255, 104, 91, 0.8784313725) 0px 30px 30px -20px; /* Updated shadow color */
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: #FF685B; /* Updated color */
+}
+
+.loginform {
+  margin-top: 20px;
+}
+
+.loginform .input {
+  width: 100%;
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  border-inline: 2px solid transparent;
+}
+
+.loginform .input::-moz-placeholder {
+  color: #aaa;
+}
+
+.loginform .input::placeholder {
+  color: #aaa;
+}
+
+.loginform .input:focus {
+  outline: none;
+  border-inline: 2px solid #FF685b;
+}
+
+.loginform .forgot-password {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.loginform .forgot-password a {
+  font-size: 11px;
+  color: #FF685B;
+  text-decoration: none;
+}
+
+.loginform .login-button {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  padding-block: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: #FF685B;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.loginform .login-button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.loginform .login-button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}
+
+.social-account-container {
+  margin-top: 25px;
+}
+
+.social-account-container .title {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  color: #aaa;
+}
+
+.social-account-container .social-accounts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.social-account-container .social-accounts .social-button {
+  background: linear-gradient(45deg, #000 0%, #707070 100%); /* Updated gradient color */
+  border: 5px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 12px 10px -8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-account-container .social-accounts .social-button .svg {
+  fill: white;
+  margin: auto;
+}
+
+.social-account-container .social-accounts .social-button:hover {
+  transform: scale(1.2);
+}
+
+.social-account-container .social-accounts .social-button:active {
+  transform: scale(0.9);
+}
+
+.agreement {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.agreement a {
+  text-decoration: none;
+  color: #0099ff;
+}

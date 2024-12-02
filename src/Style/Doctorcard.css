@@ -1,0 +1,76 @@
+.card-container{
+    width: 12rem;
+    background-color: white;
+    border-radius: 12px;
+    padding: 7px 7px 7px 7px;
+    margin: 14px;
+    box-shadow: inset;
+    }
+    .card-image{
+        height: 50%;
+        width: 12rem;    
+    }
+    .card-content h4 { 
+        margin: 0px;
+     font-family: Montserrat;
+     font-size: 16px;
+     text-align: center;
+    }
+    .card-content p{
+     text-align: center;
+     font-family: Montserrat;
+     font-size: 14px;
+     color: #737373;
+    }
+    .card-content h6{
+        font-family: Montserrat;
+     font-size: 14px;
+     margin: 0px;
+     color: #FF685B;
+    }
+    
+    .card-content button{
+        font-family: Montserrat;
+        font-size: 14px;
+        margin: 0px;
+        color: #FF685B;
+        border: 2px solid #FF685B;
+        border-radius: 37px;
+        margin-top: 10px;
+        background-color: white;
+        padding: 2px;
+        width: 60%;
+        height: 40px;
+    }
+    .card-content button:hover{
+        background-color: #FF685B;
+        color: white;
+    
+    }
+    .card-icons{
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        position: relative;
+        top: -24px;
+    }
+    .card-icons i{
+        margin-right: 12px;
+        color: #737373;
+    }
+    .card-icons i:hover{
+        color: #FF685B;
+    }
+.icons-doc{
+    position: relative;
+    bottom: 170px;
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+.icons-doc i{
+    position: relative;
+    top: 105px;
+    left: 50px;
+    margin: 12px;
+}

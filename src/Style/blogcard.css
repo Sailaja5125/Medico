@@ -1,0 +1,78 @@
+/* From Uiverse.io by Yaya12085 */ 
+.post-card {
+    width: 320px;
+    background: lightgrey;
+    background-color: white;
+    border: 1px solid #FF685B;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin: 12px;
+  }
+  .avatar {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #FF685B;
+  }
+  .title {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: black;
+    font-family: Montserrat;
+    text-decoration: none;
+    transition: all .35s ease-in;
+  }
+  
+  .title:hover {
+    text-decoration: underline blueviolet;
+  }
+  
+  .datetime {
+    font-size: 12px;
+    color: rgb(168 179 207);
+    margin: 10px 0;
+  }
+  
+  .image-preview {
+    flex: 1;
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    margin-bottom: 4px;
+  }
+  
+  .comment-like {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 0;
+  }
+  
+  .comment-like span {
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    padding: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all .15s ease;
+  }
+  
+  .comment-like span:hover {
+    background-color: rgba(137, 43, 226, 0.096);
+  }
+  
+  .comment-like span svg {
+    fill: rgb(255, 255, 255);
+    margin-right: 2px;
+  }

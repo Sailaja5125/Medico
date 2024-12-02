@@ -1,0 +1,11 @@
+.CONNECT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doctors-list{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

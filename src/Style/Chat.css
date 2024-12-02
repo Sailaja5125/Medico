@@ -1,0 +1,78 @@
+/* Chat modal styling */
+.modal {
+    position: fixed;
+    top: 20vh;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  .modal-content {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .chat-header {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .chat-window {
+    height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+  
+  .message-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .message-box {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    overflow-y: auto;
+  }
+  
+  .message-box.left {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .message-box.right {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .message-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 12px;
+    outline: none;
+  }
+  
+  .send-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin-right: 40%; ;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #555;
+  }
+  
